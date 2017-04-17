@@ -53,6 +53,8 @@ int main() {
 
 	double a = (side_length_a + side_length_b + side_length_c) / 2;
 
+	double a2 = sqrt(a*(a-side_length_a)*(a-side_length_b)*(a-side_length_c));
+
 
 	// PART II INSERT YOUR CODE ABOVE HERE
 	// PART III INSERT YOUR CODE BELOW HERE
@@ -62,7 +64,7 @@ int main() {
 
 	cout << "Perimiter is" << p << endl;
 
-	cout << "Area is" << a << endl;
+	cout << "Area is" << a2 << endl;
 
 	// PART III INSERT YOUR CODE ABOVE HERE
 
